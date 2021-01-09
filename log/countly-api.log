@@ -1,0 +1,59 @@
+2021-01-09T18:38:29.477Z: INFO	[jobs:manager]	Starting job manager in 18734
+Starting master version 20.11.1
+2021-01-09T18:38:30.358Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","consolidate"]
+2021-01-09T18:38:30.489Z: INFO	[jobs:manager]	Found 18 job types, starting monitoring: ["api:appExpire","api:clear","api:clearAutoTasks","api:clearTokens","api:ipcTest","api:ping","api:task","api:test","api:topEvents","api:userMerge","reports:send","push:clear","push:process","push:schedule","push:validate","server-stats:stats","assistant:generate","alerts:monitor"]
+2021-01-09T18:38:30.569Z: INFO	[jobs:ipc:18734]	Attached to cluster in Central 18734
+2021-01-09T18:38:30.657Z: INFO	[jobs:ipc:18734]	Worker started: 18782
+2021-01-09T18:38:30.682Z: INFO	[jobs:ipc:18734]	Worker started: 18788
+2021-01-09T18:38:30.683Z: INFO	[jobs:manager]	Cancelling 0 jobs
+2021-01-09T18:38:30.717Z: INFO	[jobs:ipc:18734]	Worker started: 18791
+2021-01-09T18:38:31.014Z: INFO	[jobs:handle]	Starting job handle in 18782
+2021-01-09T18:38:31.053Z: INFO	[jobs:handle]	Starting job handle in 18788
+2021-01-09T18:38:31.076Z: INFO	[jobs:handle]	Starting job handle in 18791
+2021-01-09T18:38:31.909Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","consolidate"]
+2021-01-09T18:38:31.915Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","consolidate"]
+2021-01-09T18:38:31.942Z: INFO	[jobs:scanner]	Checking plugins ["mobile","web","desktop","plugins","density","locale","browser","sources","views","enterpriseinfo","logger","systemlogs","errorlogs","populator","reports","crashes","push","star-rating","slipping-away-users","compare","server-stats","dbviewer","assistant","plugin-upload","times-of-day","compliance-hub","video-intelligence-monetization","alerts","onboarding","consolidate"]
+Starting worker 18788 parent: 18734
+Starting worker 18791 parent: 18734
+Starting worker 18782 parent: 18734
+2021-01-09T18:38:33.623Z: INFO	[jobs:job]	Replacing jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2021-01-09T18:38:33.630Z: INFO	[jobs:job]	Cancelled 1 previous jobs assistant:generate ({"status":0,"name":"assistant:generate"})
+2021-01-09T18:38:33.633Z: INFO	[jobs:job]	No job to replace, inserting {"name":"assistant:generate","created":1610217513610,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1610218800000}
+2021-01-09T18:38:35.699Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9dd60ebfb900392e6d17b","name":"api:task","created":1610210656306,"status":0,"started":1610217000524,"finished":1610217000532,"duration":14,"data":{},"schedule":"every 5 minutes","next":1610217300000,"modified":1610217000538,"error":null}
+2021-01-09T18:38:40.610Z: INFO	[jobs:job]	Replacing jobs reports:send ({"status":0,"name":"reports:send"})
+2021-01-09T18:38:40.614Z: INFO	[jobs:job]	Replacing jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2021-01-09T18:38:40.618Z: INFO	[jobs:job]	Replacing jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2021-01-09T18:38:40.619Z: INFO	[jobs:job]	Replacing jobs api:ping ({"status":0,"name":"api:ping"})
+2021-01-09T18:38:40.620Z: INFO	[jobs:job]	Replacing jobs api:clear ({"status":0,"name":"api:clear"})
+2021-01-09T18:38:40.621Z: INFO	[jobs:job]	Replacing jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2021-01-09T18:38:40.622Z: INFO	[jobs:job]	Replacing jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2021-01-09T18:38:40.626Z: INFO	[jobs:job]	Replacing jobs api:task ({"status":0,"name":"api:task"})
+2021-01-09T18:38:40.632Z: INFO	[jobs:job]	Cancelled 1 previous jobs reports:send ({"status":0,"name":"reports:send"})
+2021-01-09T18:38:40.635Z: INFO	[jobs:job]	Cancelled 1 previous jobs server-stats:stats ({"status":0,"name":"server-stats:stats"})
+2021-01-09T18:38:40.639Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:topEvents ({"status":0,"name":"api:topEvents"})
+2021-01-09T18:38:40.642Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:ping ({"status":0,"name":"api:ping"})
+2021-01-09T18:38:40.644Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clear ({"status":0,"name":"api:clear"})
+2021-01-09T18:38:40.646Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearTokens ({"status":0,"name":"api:clearTokens"})
+2021-01-09T18:38:40.654Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:clearAutoTasks ({"status":0,"name":"api:clearAutoTasks"})
+2021-01-09T18:38:40.655Z: INFO	[jobs:job]	Cancelled 1 previous jobs api:task ({"status":0,"name":"api:task"})
+2021-01-09T18:38:40.657Z: INFO	[jobs:job]	No job to replace, inserting {"name":"reports:send","created":1610217520608,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1610217520609}
+2021-01-09T18:38:40.664Z: INFO	[jobs:job]	No job to replace, inserting {"name":"server-stats:stats","created":1610217520612,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520613}
+2021-01-09T18:38:40.666Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:topEvents","created":1610217520616,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"at 00:01 am every 1 day","next":1610236860000}
+2021-01-09T18:38:40.667Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:ping","created":1610217520618,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520619}
+2021-01-09T18:38:40.670Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clear","created":1610217520619,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520620}
+2021-01-09T18:38:40.672Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearTokens","created":1610217520621,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520621}
+2021-01-09T18:38:40.674Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:clearAutoTasks","created":1610217520622,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520622}
+2021-01-09T18:38:40.676Z: INFO	[jobs:job]	No job to replace, inserting {"name":"api:task","created":1610217520625,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1610217600000}
+2021-01-09T18:38:40.724Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c2","name":"reports:send","created":1610217520608,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1610217520609}
+2021-01-09T18:38:40.727Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c3","name":"server-stats:stats","created":1610217520612,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520613}
+2021-01-09T18:38:40.731Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c5","name":"api:ping","created":1610217520618,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520619}
+2021-01-09T18:38:40.737Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c6","name":"api:clear","created":1610217520619,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520620}
+2021-01-09T18:38:40.743Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c7","name":"api:clearTokens","created":1610217520621,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520621}
+2021-01-09T18:38:40.756Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c8","name":"api:clearAutoTasks","created":1610217520622,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 1 day","next":1610217520622}
+2021-01-09T18:40:00.146Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c9","name":"api:task","created":1610217520625,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 5 minutes","next":1610217600000}
+2021-01-09T18:45:00.614Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c9","name":"api:task","created":1610217520625,"status":0,"started":1610217600151,"finished":1610217600157,"duration":10,"data":{},"schedule":"every 5 minutes","next":1610217900000,"modified":1610217600161,"error":null}
+2021-01-09T18:50:00.364Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c9","name":"api:task","created":1610217520625,"status":0,"started":1610217900617,"finished":1610217900623,"duration":9,"data":{},"schedule":"every 5 minutes","next":1610218200000,"modified":1610217900626,"error":null}
+2021-01-09T18:55:00.072Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c9","name":"api:task","created":1610217520625,"status":0,"started":1610218200367,"finished":1610218200374,"duration":10,"data":{},"schedule":"every 5 minutes","next":1610218500000,"modified":1610218200377,"error":null}
+2021-01-09T19:00:00.536Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c9","name":"api:task","created":1610217520625,"status":0,"started":1610218500077,"finished":1610218500083,"duration":8,"data":{},"schedule":"every 5 minutes","next":1610218800000,"modified":1610218500085,"error":null}
+2021-01-09T19:00:00.538Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f82958533c492e02d3c1","name":"assistant:generate","created":1610217513610,"status":0,"started":null,"finished":null,"duration":0,"data":{},"schedule":"every 30 minutes starting on the 0 min","next":1610218800000}
+2021-01-09T19:00:00.542Z: INFO	[jobs:manager]	Trying to start job {"_id":"5ff9f83058533c492e02d3c2","name":"reports:send","created":1610217520608,"status":0,"started":1610217520729,"finished":1610217520755,"duration":45,"data":{},"schedule":"every 1 hour starting on the 0 min","next":1610218800000,"modified":1610217520774,"error":null}
